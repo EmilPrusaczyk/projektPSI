@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "type": "LP",
+    "name": "The National",
+    "releaseYear": "2001",
+    "description": "The National is the debut studio album by American indie rock band the National, released on October 30, 2001 on Brassland Records. Recorded prior to guitarist Bryce Dessner's full arrival into the band, The National was produced by both Nick Lloyd and the band itself. Now-bass guitarist Scott Devendorf performs both guitar and backing vocals on this album, with guitarist and multi-instrumentalist Aaron Dessner on bass guitar and guitar duties.",
+    "cover": "images/the-national-2001.jpg",
+    "RYMlink": "https://rateyourmusic.com/release/album/the-national/the-national/",
+    "discogsLink": "https://www.discogs.com/The-National-The-National/master/264894"
+  },
+  {
+    "id": "2",
+    "type": "LP",
+    "name": "Sad Songs for Dirty Lovers",
+    "releaseYear": "2003",
+    "description": "Sad Songs for Dirty Lovers is the second studio album by indie rock band the National. It was released in 2003 on Brassland Records. This is the first album on which the band worked with Peter Katis, who would produce the band's next albums Alligator and Boxer.",
+    "cover": "images/sad-songs-for-dirty-lovers-2003.jpg",
+    "RYMlink": "https://rateyourmusic.com/release/album/the-national/sad-songs-for-dirty-lovers/",
+    "discogsLink": "https://www.discogs.com/National-Sad-Songs-For-Dirty-Lovers/master/143676"
+  },
+  {
+    "id": "3",
+    "type": "LP",
+    "name": "Alligator",
+    "releaseYear": "2005",
+    "description": "Alligator is the third studio album by American indie rock band The National, released on April 12, 2005 on Beggars Banquet. Recorded and produced by Peter Katis and Paul Mahajan, the album brought The National critical acclaim and increased their fanbase significantly.",
+    "cover": "images/alligator-2005.jpg",
+    "RYMlink": "https://rateyourmusic.com/release/album/the-national/alligator-1/",
+    "discogsLink": "https://www.discogs.com/National-Alligator/master/143672"
+  },
+  {
+    "id": "4",
+    "type": "LP",
+    "name": "Boxer",
+    "releaseYear": "2007",
+    "description": "Boxer is the fourth studio album by American indie rock band The National, released on May 22, 2007 on Beggars Banquet Records. Produced by both Peter Katis and the band itself, the album has sold over 300,000 copies in the U.S. Following its release, the album debuted at #68 on the U.S. Billboard 200, selling about 9,500 copies in its first week. A documentary film, titled A Skin, A Night, was released the following year. Focusing on the recording process of Boxer, the film was directed by independent filmmaker Vincent Moon, and released in conjunction with a collection of b-sides, demos and live recordings, titled The Virginia EP, on May 20, 2008.",
+    "cover": "images/boxer-2007.jpg",
+    "RYMlink": "https://rateyourmusic.com/release/album/the-national/boxer/",
+    "discogsLink": "https://www.discogs.com/The-National-Boxer/master/15110"
+  },
+  {
+    "id": "5",
+    "type": "LP",
+    "name": "High Violet",
+    "releaseYear": "2010",
+    "description": "High Violet is the fifth studio album by The National, which was released on May 10, 2010 in Europe and on May 11, 2010 in North America via 4AD. The band produced the album themselves assisted by Peter Katis with whom they worked on their previous albums Alligator and Boxer at their own studio in Brooklyn, New York, and at Katis' Tarquin Studios in Bridgeport, Connecticut. The sculpture on the album cover was created by artist Mark Fox, and is called The Binding Force. An expanded edition of High Violet was released through 4AD on November 22, 2010. The reissue includes the standard 11-track album along with a new bonus disc, featuring the unreleased tracks \"You Were a Kindness\" and \"Wake Up Your Saints\" as well as alternate versions, B-sides, and live recordings.",
+    "cover": "images/high-violet-2010.jpg",
+    "RYMlink": "https://rateyourmusic.com/release/album/the-national/high-violet/",
+    "discogsLink": "https://www.discogs.com/The-National-High-Violet/master/246228"
+  },
+  {
+    "id": "6",
+    "type": "LP",
+    "name": "Trouble Will Find Me",
+    "releaseYear": "2013",
+    "description": "Trouble Will Find Me is the sixth studio album by American indie rock band The National, released on May 17, 2013 on 4AD. Produced by band members Aaron and Bryce Dessner, the album features appearances from St. Vincent, Sharon Van Etten, Doveman, Sufjan Stevens, Nona Marie Invie of Dark Dark Dark fame, and Richard Reed Parry of Arcade Fire. The album received widespread critical acclaim upon its release. Trouble Will Find Me reached number three on both the Billboard 200 and the UK Albums Chart. The album was nominated for Best Alternative Music Album at the 56th Annual Grammy Awards.",
+    "cover": "images/trouble-will-find-me-2013.jpg",
+    "RYMlink": "https://rateyourmusic.com/release/album/the-national/trouble-will-find-me/",
+    "discogsLink": "https://www.discogs.com/The-National-Trouble-Will-Find-Me/master/556601"
+  }
+]

@@ -1,0 +1,261 @@
+html {
+    background: #040404;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.navbar {
+    padding: 0px;
+    overflow: hidden;
+    background-color: #222;
+}
+
+.navbar a, .navbar .dropdown-button {
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    color: #dddddd;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.navbar #navbar-separator {
+    float: left;
+    color: #dddddd;
+    background-color: #dddddd;
+    width: 4px;
+    height: 50px;
+}
+
+#logo {
+    font-size: 33px;
+    padding: 6px;
+}
+
+.navbar .navbar-current {
+    background-color: #555;
+    color: #ffffff;
+}
+
+#logo.navbar-current {
+    color: #555;
+    background-color: #dddddd;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+    background-color: #444;
+}
+
+#loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#ajax-content {
+    padding: 16px;
+}
+
+.album-list {
+    list-style-type: none;
+}
+
+.album-list li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    float: left;
+}
+
+.album-list .album {
+    display: inline;
+}
+
+.album-id {
+    display: none;
+}
+
+.album-list .album .album-cover {
+    height: 300px;
+    width: 300px;
+    border: solid 1px white;
+    padding: 4px;
+    float: left;
+}
+
+.album-list .album .icon32by32 {
+    height: 32px;
+    padding: 16px;
+}
+
+.album-list .album .album-description {
+    float: left;
+    width: 50%;
+    padding: 16px;
+}
+
+.album-list .album .album-description .album-name {
+    font-size: 20px;
+}
+
+.album-list .album .album-description .album-release {
+    font-size: 16px;
+}
+
+.album-list .album .album-description .album-description-text {
+    font-size: 12px;
+}
+
+.gallery-image {
+    background: #222222;
+    margin: 16px;
+    height: 600px;
+}
+
+.gallery-image-container {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.gallery-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.comments {
+    float: right;
+    width: 300px;
+    background: #161616;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comment-list li {
+    color: #dddddd;
+    padding: 8px;
+    margin: 4px;
+    background: #222222;
+}
+
+.clear {
+    clear: both;
+}
+
+.comment-form {
+    display: none;
+    margin: 4px;
+    background: #333333;
+    height: 75px;
+
+}
+
+.comments::-webkit-scrollbar {
+    width: 5px;
+    background: rgba(180, 180, 180, 0.5);
+}
+
+.comments::-webkit-scrollbar-track
+{
+    background: rgba(180, 180, 180, 0.1);
+}
+
+.comments::-webkit-scrollbar-thumb
+{
+    background: #bbbbbb;
+}
+
+.comment-send {
+    width: 30%;
+    background: #555555;
+    height: 25px;
+    color: #dddddd;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+
+.add-comment-button {
+    width: 50%;
+    background: #555555;
+    height: 25px;
+    color: #dddddd;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.add-comment-button:hover {
+    background: #bbbbbb;
+    color: #222222;
+    cursor: pointer;
+}
+
+.comment-send:focus {
+    outline: 0;
+}
+
+.comment-send:hover {
+    background: #bbbbbb;
+    color: #222222;
+    cursor: pointer;
+}
+
+.comment-name {
+    width: 70%;
+    height: 24px;
+    background: #dfdfdf;
+    color: black;
+    border: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border-top: 1px solid black;
+}
+
+.comment-input {
+    height: 50px;
+    width: 100%;
+    background: #dfdfdf;
+    color: black;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.comment-author {
+    font-size: 12px;
+    color: #555555;
+    font-style: italic;
+}
