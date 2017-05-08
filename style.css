@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-    padding: 0px;
+    padding: 0;
     overflow: hidden;
     background-color: #222;
 }
@@ -84,6 +84,19 @@ body {
     float: left;
 }
 
+.album-list li:nth-child(odd) .album img {
+    float: left;
+}
+
+.album-list li:nth-child(even) .album img {
+    float: right;
+}
+
+.album-list li:nth-child(even) .album .album-description {
+    float: right;
+    text-align: right;
+}
+
 .album-list .album {
     display: inline;
 }
@@ -97,7 +110,6 @@ body {
     width: 300px;
     border: solid 1px white;
     padding: 4px;
-    float: left;
 }
 
 .album-list .album .icon32by32 {
@@ -258,4 +270,75 @@ body {
     font-size: 12px;
     color: #555555;
     font-style: italic;
+}
+
+.frontpage-picture {
+    height: 600px;
+    width: 1296px;
+    background: url("images/main.jpg") no-repeat;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+.frontpage {
+    position: relative;
+}
+
+.band-text {
+    padding: 64px;
+    color: #dddddd;
+}
+
+.band-text ul {
+    list-style-type: none;
+}
+
+.band-text ul li {
+    float: left;
+    background: #dddddd;
+    color: #161616;
+    padding: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    height: 32px;
+    width: 100px;
+}
+
+.band-text ul li:hover {
+    background: #333333;
+    color: #bbbbbb;
+    cursor: pointer;
+    height: auto;
+    width: 300px;
+}
+
+.band-member-pic {
+    margin-top: 32px;
+    width: 300px;
+}
+
+.links ul li {
+    background: #bbbbbb;
+    width: 300px;
+    color: #161616;
+    margin: 16px;
+    padding: 8px;
+    font-weight: bold;
+    float: left;
+}
+
+.links ul li img {
+    width: 64px;
+    height: 64px;
+    padding-right: 16px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #161616;
 }
